@@ -16,5 +16,5 @@ http.createServer(function (req,res) {
     fileStream.pipe(res);
     
  }
- //console.log(req.url);
+ console.log(req.url);
 }).listen(3000);
